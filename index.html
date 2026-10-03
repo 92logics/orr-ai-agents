@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>92 Logics prototype · ORR Knowledge &amp; Workforce agents</title>
+  <meta name="description" content="Scripted prototype by 92 Logics of ORR Corporate Knowledge and Strategic Workforce Planning agents from Find a Tender notice 090514-2026. Not an official ORR system and not a bid.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the agents</a>
+  <div class="banner" role="note">
+    <strong>92 Logics prototype.</strong>
+    Not an official Office of Rail and Road system, not connected to ORR Microsoft 365, and not a bid or proposal.
+  </div>
+
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">92</span>
+      <div>
+        <p class="eyebrow">92 Logics · Islamabad · scripted demo</p>
+        <h1>ORR Knowledge &amp; Workforce agents</h1>
+      </div>
+    </div>
+    <p class="lede">A labeled sample of the two Microsoft 365 agents named in ORR CT 26-34: a Corporate Knowledge Agent and a Strategic Workforce Planning Agent. Every reply is scripted from the public Find a Tender notice. Questions the notice does not cover are refused.</p>
+  </header>
+
+  <div class="shell">
+    <aside class="rail" aria-label="Demo controls">
+      <fieldset class="modes">
+        <legend>Which agent</legend>
+        <label class="mode"><input type="radio" name="agent" value="knowledge" checked> Corporate Knowledge Agent</label>
+        <label class="mode"><input type="radio" name="agent" value="workforce"> Strategic Workforce Planning Agent</label>
+      </fieldset>
+
+      <p class="rail-label">Try a scripted question</p>
+      <div class="chips" id="chips"></div>
+
+      <p class="fine">Sample labels only. Nothing here reads ORR SharePoint, staff directories, or workforce systems. No network call is made.</p>
+    </aside>
+
+    <main id="main">
+      <section aria-label="Scripted agent conversation">
+        <div class="stage-bar">
+          <div>
+            <p class="kicker" id="stage-kicker">Corporate Knowledge Agent</p>
+            <p class="name" id="stage-name">Knowledge discovery · evidence retrieval · expertise identification</p>
+          </div>
+          <p class="status">Offline · scripted</p>
+        </div>
+        <div class="thread" id="thread" aria-live="polite"></div>
+        <form id="composer" class="composer">
+          <label class="sr" for="ask">Ask the prototype</label>
+          <textarea id="ask" rows="2" placeholder="Ask about what this agent covers in the notice, or try a sample prompt."></textarea>
+          <button type="submit">Answer from notice</button>
+        </form>
+        <p class="fine composer-note">Runs in this browser only. No account, no API key, no live AI service.</p>
+      </section>
+    </main>
+
+    <aside class="facts" aria-label="What this demo knows">
+      <h2>What the notice asks for</h2>
+      <p>ORR is seeking a specialist Microsoft AI delivery partner for three AI solutions in its Microsoft 365 environment. This demo samples only agents (2) and (3).</p>
+      <ol class="scope">
+        <li>Records retention and SharePoint remediation <span class="muted">(not in this chat)</span></li>
+        <li><strong>Corporate Knowledge Agent</strong> — knowledge discovery, evidence retrieval, expertise identification</li>
+        <li><strong>Strategic Workforce Planning Agent</strong> — workforce forecasting, scenario modelling, resource planning</li>
+      </ol>
+      <dl>
+        <div><dt>Buyer</dt><dd>Office of Rail and Road</dd></div>
+        <div><dt>Reference</dt><dd>ORR CT 26-34</dd></div>
+        <div><dt>Notice</dt><dd><a href="https://www.find-tender.service.gov.uk/Notice/090514-2026" rel="noopener">090514-2026</a></dd></div>
+        <div><dt>Contact</dt><dd>procurementteam@orr.gov.uk</dd></div>
+        <div><dt>Tender deadline</dt><dd>15 October 2026, 12:00pm</dd></div>
+        <div><dt>Estimated value</dt><dd>£100,000 ex VAT · £120,000 inc VAT</dd></div>
+      </dl>
+      <h2>This desk will not</h2>
+      <ul>
+        <li>Call a live AI API or any ORR system</li>
+        <li>Invent features beyond the notice wording</li>
+        <li>Answer rail safety, licensing, or operational decisions</li>
+        <li>Reveal real ORR headcount, salaries, or staff directories</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Prototype by 92 Logics · cowork@92logics.com · not an official ORR system.</p>
+  </footer>
+  <noscript><p class="banner">This prototype needs JavaScript in the browser. It still does not call any server.</p></noscript>
+  <script src="js/app.js"></script>
+</body>
+</html>
